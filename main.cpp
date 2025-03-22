@@ -32,6 +32,13 @@ int main() {
 	assert(answerSet2 == soln);
 
 	// write your own tests here!
+	vector<int> input = {35, 42, 7, 2, 7, 1, 21, 70};
+    
+    vector<int> result = biggest_divisible_conglomerate(input);
+    
+    cout << "BDC: " << vec_to_string(result) << endl;
 
-	return 0;
+    return 0;
 }
+
+	
